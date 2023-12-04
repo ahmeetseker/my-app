@@ -43,7 +43,7 @@ const Hero = () => {
 
         <div className='border-4 w-[34px] h-[64px] justify-center rounded-3xl border-secondary flex items-start p-2'>
 
-          <motion.dev
+          <motion.div
 
           animate={{
 
