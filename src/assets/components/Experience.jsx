@@ -17,7 +17,8 @@ import { experiences } from '../../constants';
 import { Points } from '@react-three/drei';
 
 
-const ExperinceCard = ({experience}) => (
+
+const ExperinceCard = ({experience,t}) => (
 
 <VerticalTimelineElement 
  contentStyle={{background:'#1d1836', color: '#fff'}}
@@ -46,7 +47,10 @@ const ExperinceCard = ({experience}) => (
         <li  key={`experince-point-${index}`}
               className='text-white text-[14px] pl-1 tracking-wider'
         >
-        {point}
+          {point}
+        
+          {t(`experiences.points.${index}`)}
+
         </li>
       ))}
 
@@ -58,13 +62,13 @@ const ExperinceCard = ({experience}) => (
 
 )
 
-const Experience = () => {
+const Experience = ({t}) => {
   return (
     <>
       <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>What I have  done so far </p>
+      <p className={`${styles.sectionSubText} text-center`}> {t('Progress ')} </p>
 
-<h2 className={styles.sectionHeadText}>Work Experience.</h2>
+<h2 className={`${styles.sectionHeadText} text-center`}>{t('WorkExperience')}</h2>
 
 <div className='mt-20 flex flex-col '> 
     <VerticalTimeline>
@@ -73,6 +77,7 @@ const Experience = () => {
       <ExperinceCard 
        key={index}
        experience={experience}
+       t={t}
 
       
       />

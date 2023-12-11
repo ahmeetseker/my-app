@@ -4,6 +4,8 @@ import { motion } from 'framer-motion'
 import { styles } from '../../styles'
 import { services } from '../../constants'
 import {fadeIn , textVariant} from '../../utils/motion'
+import { useTranslation } from 'react-i18next';
+
 import { SectionWrapper } from '../../hoc'
 
 
@@ -41,18 +43,21 @@ const ServiceCard =({title,index,icon})=> {
 } 
 
 const About = () => {
+  
+  const { t } = useTranslation();
+
   return (
     <>
     <motion.div variants={textVariant()}>
 
 
-      <p className={styles.sectionSubText}>Intruction</p>
+      <p className={styles.sectionSubText}>{t("Intruction")}</p>
 
-      <h2 className={styles.sectionHeadText}>Overview</h2>
+      <h2 className={styles.sectionHeadText}>  {t("Overview")}</h2>
 
       <motion.p variants={fadeIn('','','0.1','1')}>
 
-      I'm a skilled software developer with experience in TypeScript and JavaScript, and expertise in frameworks like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+      {t("deneme")}
 
       </motion.p>
 

@@ -1,0 +1,38 @@
+
+
+    {
+        "welcome": " Hi I'm ",
+        "HeroDesc": "3D visuals, user interfaces, and",
+        "HeroDescAlt": "I develop web applications.",
+        "deneme": "Hello, I am a software developer with experience in TypeScript and JavaScript. I am familiar with technologies like React, Node.js, and Three.js. My strength lies in quick learning and collaborating closely with clients to provide effective, scalable, and user-friendly solutions for real-world problems. Let's work together to bring your ideas to life!",
+        "Progress":"What I have  done so far ",
+        "WorkExperience":"Work Experience.",
+        "Intruction":"Instruction",
+        "Overview":"Overview",
+        "navbar": {
+            "about": "About",
+            "work": "Work",
+            "contact": "Contact"
+          },
+
+          "experiences": {
+            "points": [
+               "Developing and maintaining web applications using React.js and other related technologies.",
+              "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+              "Implementing responsive design and ensuring cross-browser compatibility.",
+               "Participating in code reviews and providing constructive feedback to other developers."
+
+               
+            ]
+            
+
+            
+        }
+        
+
+
+     }
+
+    
+    
+ 

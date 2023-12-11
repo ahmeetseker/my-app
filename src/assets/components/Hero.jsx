@@ -2,7 +2,8 @@ import React from 'react'
 import { styles } from '../../styles';
 import { ComputersCanvas } from './canvas';
 import { motion } from 'framer-motion';
-const Hero = () => {
+
+const Hero = ({t}) => {
   return (
    <section className='relative w-full h-screen mx-auto'>
 
@@ -19,15 +20,15 @@ const Hero = () => {
        <div>
         
         <h1 className={`${styles.heroHeadText}`}>
-        Hi I'm <span className='text-[#915eff]'>Ahmet</span>
+          {t('welcome')} <span className='text-[#915eff]'>Ahmet</span>
           </h1> 
           
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am Develop 3d visual,user  
+               {t('HeroDesc')}
 
             <br className='sm:block hidden' />
 
-              interfaces and Web applatications
+            {t('HeroDescAlt')}
 
           </p>
           </div>

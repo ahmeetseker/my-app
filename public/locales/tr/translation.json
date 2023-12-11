@@ -1,0 +1,33 @@
+{
+    "welcome": "Merhaba Ben",
+    "HeroDesc": "3D görseller, kullanıcı arayüzleri ve ,",
+    "HeroDescAlt": " Web uygulamaları geliştiriyorum",
+    "deneme":"Merhaba, ben bir yazılım geliştiriciyim. TypeScript ve JavaScript konularında deneyimim var, aynı zamanda React, Node.js ve Three.js teknolojilerini kullanabiliyorum. Hızlı öğrenme yeteneğim ve müşterilerle işbirliği yaparak gerçek dünya problemlerine çözümler sunma becerimle dikkat çekiyorum. Fikirlerinizi hayata geçirmek için birlikte çalışalım",
+    "Progress":"Şimdiye Kadar Yaptıklarım",
+   "WorkExperience":"İş Tecrübelerim",
+   "Intruction":"Hakkımda",
+   "Overview":"Genel Bakış",
+
+   "navbar": {
+    "about": "Hakkında",
+    "work": "İş",
+    "contact": "İletişim"
+  },
+
+  "experiences": {
+    "points": [
+     "React.js ve diğer ilgili teknolojileri kullanarak web uygulamaları geliştirme ve bakımını yapma.",
+    "Tasarımcılar, ürün yöneticileri ve diğer geliştiricilerle iş birliği yaparak yüksek kaliteli ürünler oluşturma.",
+      "Duyarlı tasarım uygulama ve tarayıcı uyumluluğunu sağlama.",
+       "Kod incelemelerine katılma ve diğer geliştiricilere yapıcı geri bildirim sağlama."
+    ]
+
+
+
+  
+   
+
+}
+
+}
+
