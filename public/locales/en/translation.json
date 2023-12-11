@@ -16,14 +16,39 @@
           },
 
           "experiences": {
-            "points": [
-               "Developing and maintaining web applications using React.js and other related technologies.",
-              "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-              "Implementing responsive design and ensuring cross-browser compatibility.",
-               "Participating in code reviews and providing constructive feedback to other developers."
+            "Hajans": {
+              "date": "January 2023 - May 2023",
+              "points": [
+                "I developed a B2B e-commerce platform for the company using Tailwind CSS and Alpine.js.",
+                "The platform aimed to increase customer satisfaction with a user-friendly interface design and interactive features.",
+                "Working in the frontend domain, I provided a customizable and fast user experience tailored to customer needs.",
+                "I have experience in using Tailwind CSS to create page designs, enhance user interfaces, and increase user interaction.",
+                "Effectively utilizing modern technologies such as Tailwind CSS and Alpine.js, I managed the project to be current and performant.",
+                                "During the frontend development process, I prioritized responsive design and browser compatibility.",
+                                "I established effective communication within the team, where we set project goals and collaborated throughout the process.",
+                                "Throughout my tenure, I contributed to the successful completion of the project by working harmoniously with other team members."
+              ]
+            },
+            "Orjinfinity": {
+              "date": "May 2023 - Present",
+              "points": [
+                "I had the opportunity to work at Orjinfinity and during this process, I gained the chance to enhance my knowledge and skills on React.",
+                "I was involved in the frontend development of a POS application for restaurant cafes.",
+                "I actively took on a role in user interface design and development.",
+                "Utilizing my technological skills, I collaborated within the team to create a user-friendly and interactive frontend.",
+                "While working at Orjinfinity, I actively contributed to the development of various features using React in the project hosted on the 'Hemen Tescille' website."
+              ]
+            },
+            "Shopify": {
+              "points": [
+                "ddddddddddddddd React.js and other related technologies.",
+                "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+                "Implementing responsive design and ensuring cross-browser compatibility.",
+                "Participating in code reviews and providing constructive feedback to other developers."
+              ]
+            }
 
-               
-            ]
+
             
 
             

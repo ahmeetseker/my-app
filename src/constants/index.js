@@ -16,8 +16,8 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
-    tesla,
+    hajans,
+    Orjinfinity,
     shopify,
     carrent,
     jobit,
@@ -119,26 +119,35 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend Developer",
+      company_name: "Hajans",
+      icon: hajans,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "",
       points: [
-       
+        "Tailwind CSS ve Alpine.js kullanarak, firma için bir B2B e-ticaret platformu geliştirdim.",
+        "Platform, kullanıcı dostu arayüz tasarımı ve etkileşimli özellikleriyle müşteri memnuniyetini artırmayı hedefledi.",
+        "Frontend alanında çalışarak, müşteri ihtiyaçlarına yönelik özelleştirilebilir ve hızlı bir kullanıcı deneyimi sağladım.",
+        "Sayfa tasarımlarını oluşturmak, kullanıcı arabirimini geliştirmek ve kullanıcı etkileşimini artırmak için Tailwind CSS kullanımı konusunda deneyim sahibiyim.",
+        "Tailwind CSS ve Alpine.js gibi modern teknolojileri etkin bir şekilde kullanarak, projeyi güncel ve performanslı bir şekilde yönettim.",
+        "Frontend geliştirme sürecinde responsive tasarıma ve tarayıcı uyumluluğuna özel önem verdim.",
+        "Takım içinde etkin iletişim kurarak, proje hedeflerini belirledik ve süreç boyunca işbirliği içinde çalıştık.",
+        "Çalıştığım süre zarfında, takım içindeki diğer üyelerle uyumlu bir şekilde çalışarak projenin başarıyla tamamlanmasına katkı sağladım.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Frontend Developer (React)",
+      company_name: "Orjinfinity",
+      icon: Orjinfinity,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2023 -  Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Orjinfinity firmasında çalışma fırsatı buldum ve bu süreçte React üzerindeki bilgi ve becerilerimi geliştirme imkanı elde ettim",
+        "Restoran kafeler için bir POS uygulamasının frontend geliştirmesinde yer aldım.",
+        "Kullanıcı arayüzü tasarımı ve geliştirmesinde aktif rol üstlendim.",
+        "Teknolojik becerilerimle, kullanıcı dostu ve etkileşimli bir frontend oluşturmak için ekip içinde işbirliği yaptım.",
+        "Orjinfinity firmasında çalışırken, Hemen Tescille adlı sitede yer alan projede, React kullanarak çeşitli özelliklerin geliştirilmesinde aktif rol aldım.",
+      
       ],
     },
     {
@@ -154,7 +163,7 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    
+   
   ];
   
   const testimonials = [

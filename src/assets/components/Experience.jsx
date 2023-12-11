@@ -27,10 +27,10 @@ const ExperinceCard = ({experience,t}) => (
   iconStyle={{background:experience.iconBg}}
   icon={
 
-    <div>
+    <div className='flex justify-center items-center h-full'>
 
       <img src={experience.icon} alt={experience.comapany_name} 
-          className='w-[60px] h-[60%]  object-contain  '
+          className='w-[45px] h-[60%]  object-contain'
       
       />
     </div>
@@ -47,16 +47,15 @@ const ExperinceCard = ({experience,t}) => (
         <li  key={`experince-point-${index}`}
               className='text-white text-[14px] pl-1 tracking-wider'
         >
-          {point}
-        
-          {t(`experiences.points.${index}`)}
+
+          {t(`experiences.${experience.company_name}.points.${index}`)}
 
         </li>
       ))}
 
     </ul>
     </div>
-{experience.date}
+    {t(`experiences.${experience.company_name}.date`)}
 </VerticalTimelineElement>
 
 

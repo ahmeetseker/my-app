@@ -15,13 +15,37 @@
   },
 
   "experiences": {
-    "points": [
-     "React.js ve diğer ilgili teknolojileri kullanarak web uygulamaları geliştirme ve bakımını yapma.",
-    "Tasarımcılar, ürün yöneticileri ve diğer geliştiricilerle iş birliği yaparak yüksek kaliteli ürünler oluşturma.",
-      "Duyarlı tasarım uygulama ve tarayıcı uyumluluğunu sağlama.",
-       "Kod incelemelerine katılma ve diğer geliştiricilere yapıcı geri bildirim sağlama."
-    ]
-
+    "Hajans": {
+      "date": "Ocak 2023 - Mayıs 2023",
+      "points": [
+        "Tailwind CSS ve Alpine.js kullanarak, firma için bir B2B e-ticaret platformu geliştirdim.",
+        "Platform, kullanıcı dostu arayüz tasarımı ve etkileşimli özellikleriyle müşteri memnuniyetini artırmayı hedefledi.",
+        "Frontend alanında çalışarak, müşteri ihtiyaçlarına yönelik özelleştirilebilir ve hızlı bir kullanıcı deneyimi sağladım.",
+        "Sayfa tasarımlarını oluşturmak, kullanıcı arabirimini geliştirmek ve kullanıcı etkileşimini artırmak için Tailwind CSS kullanımı konusunda deneyim sahibiyim.",
+        "Tailwind CSS ve Alpine.js gibi modern teknolojileri etkin bir şekilde kullanarak, projeyi güncel ve performanslı bir şekilde yönettim.",
+        "Frontend geliştirme sürecinde responsive tasarıma ve tarayıcı uyumluluğuna özel önem verdim.",
+        "Takım içinde etkin iletişim kurarak, proje hedeflerini belirledik ve süreç boyunca işbirliği içinde çalıştık.",
+        "Çalıştığım süre zarfında, takım içindeki diğer üyelerle uyumlu bir şekilde çalışarak projenin başarıyla tamamlanmasına katkı sağladım."
+      ]
+    },
+    "Orjinfinity": {
+      "date": "Mayıs 2023 - Günümüz",
+      "points": [
+        "Orjinfinity firmasında çalışma fırsatı buldum ve bu süreçte React üzerindeki bilgi ve becerilerimi geliştirme imkanı elde ettim",
+        "Restoran kafeler için bir POS uygulamasının frontend geliştirmesinde yer aldım.",
+        "Kullanıcı arayüzü tasarımı ve geliştirmesinde aktif rol üstlendim.",
+        "Teknolojik becerilerimle, kullanıcı dostu ve etkileşimli bir frontend oluşturmak için ekip içinde işbirliği yaptım.",
+        "Orjinfinity firmasında çalışırken, Hemen Tescille adlı sitede yer alan projede, React kullanarak çeşitli özelliklerin geliştirilmesinde aktif rol aldım."  
+      ]
+    },
+    "Shopify": {
+      "points": [
+        "eeeeeeeeeeeeeeeeee React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers."
+      ]
+    }
 
 
   

@@ -23,12 +23,13 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import hajans from "./company/hajans.png"
+import Orjinfinity from "./company/Orjinfinity.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import { Svg } from "@react-three/drei";
 
 export {
   logo,
@@ -54,8 +55,8 @@ export {
   threejs,
   meta,
   shopify,
-  starbucks,
-  tesla,
+  hajans,
+  Orjinfinity,
   carrent,
   jobit,
   tripguide,
