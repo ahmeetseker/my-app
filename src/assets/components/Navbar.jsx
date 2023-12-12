@@ -32,6 +32,7 @@ const Navbar = ({t}) => {
           
               </Link>
               
+              
               <ul className='list-none flex sm:flex flex-row gap-10'>
                      {navLinks.map((nav) => (
                     <li
@@ -46,6 +47,7 @@ const Navbar = ({t}) => {
                   ))}
                </ul>
                     
+       
               <div className='sm:hidden flex-1 justify-end items-center'>
                       <img src={toggle ? close : menu}
                         alt={menu}
@@ -75,14 +77,14 @@ const Navbar = ({t}) => {
                   ))}
                </ul>
                     
-
+          
                       </div>
                 
                  </div>
 
                  <div>
                     <LanguageSelector/>
-                 </div>
+                 </div> 
                
  
         </div>

@@ -6,7 +6,7 @@ import { fadeIn,textVariant} from '../../utils/motion'
 import { motion } from 'framer-motion'
 import { SectionWrapper } from "../../hoc";
 import { github } from '..'
-
+import { useTranslation } from 'react-i18next';
 
 
 const ProjectCard =({index,name,description,tags,image,source_code_link}) => {
@@ -69,15 +69,17 @@ const ProjectCard =({index,name,description,tags,image,source_code_link}) => {
 
 
 const Works = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <motion.div variants={(textVariant())}>
 
         <p className={styles.sectionSubText}>
-          My Work
+          {t("myWork")}
         </p>
 
-        <h2 className={styles.sectionHeadText}>Project</h2>
+        <h2 className={styles.sectionHeadText}>{t("Project")}</h2>
 
       </motion.div>
 
@@ -90,8 +92,7 @@ const Works = () => {
 
         >
 
-        aciklama  aciklama aciklama aciklama aciklama aciklama aciklama aciklama  aciklama aciklama  aciklama aciklama aciklama aciklama
-        aciklama  aciklama aciklama aciklama aciklama aciklama aciklama aciklama  aciklama aciklama  aciklama aciklama aciklama aciklama
+          {t("ProjectDesc")}
         </motion.p>
 
       </div>
@@ -101,9 +102,12 @@ const Works = () => {
       {projects.map((project , index) =>
 
         <ProjectCard 
-        key={`project-${index}`} 
+        key={`project-${index}`}
         {...project}
-         index={index}
+        description={t(project.description)}
+
+        index={index}
+       
         ></ProjectCard>
       
       

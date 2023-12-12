@@ -1,3 +1,7 @@
+
+
+
+
 import {
     mobile,
     backend,
@@ -23,9 +27,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    
   } from "../assets";
   
   export const navLinks = [
+  
     {
       id: "about",
       title: "About",
@@ -44,6 +50,8 @@ import {
   ];
   
   const services = [
+
+    
     {
       title: "Web Developer",
       icon: web,
@@ -140,7 +148,7 @@ import {
       company_name: "Orjinfinity",
       icon: Orjinfinity,
       iconBg: "#E6DEDD",
-      date: "May 2023 -  Present",
+      date: "",
       points: [
         "Orjinfinity firmasında çalışma fırsatı buldum ve bu süreçte React üzerindeki bilgi ve becerilerimi geliştirme imkanı elde ettim",
         "Restoran kafeler için bir POS uygulamasının frontend geliştirmesinde yer aldım.",
@@ -155,7 +163,7 @@ import {
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -167,6 +175,7 @@ import {
   ];
   
   const testimonials = [
+    
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -194,10 +203,12 @@ import {
   ];
   
   const projects = [
+    
     {
+
+      
       name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      description: 'projects.description1',
       tags: [
         {
           name: "react",
@@ -218,7 +229,7 @@ import {
     {
       name: "Job IT",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+           ('projects.description2'),
       tags: [
         {
           name: "react",

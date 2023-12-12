@@ -24,9 +24,9 @@
                 "Working in the frontend domain, I provided a customizable and fast user experience tailored to customer needs.",
                 "I have experience in using Tailwind CSS to create page designs, enhance user interfaces, and increase user interaction.",
                 "Effectively utilizing modern technologies such as Tailwind CSS and Alpine.js, I managed the project to be current and performant.",
-                                "During the frontend development process, I prioritized responsive design and browser compatibility.",
-                                "I established effective communication within the team, where we set project goals and collaborated throughout the process.",
-                                "Throughout my tenure, I contributed to the successful completion of the project by working harmoniously with other team members."
+                  "During the frontend development process, I prioritized responsive design and browser compatibility.",
+                "I established effective communication within the team, where we set project goals and collaborated throughout the process.",
+                 "Throughout my tenure, I contributed to the successful completion of the project by working harmoniously with other team members."
               ]
             },
             "Orjinfinity": {
@@ -52,8 +52,18 @@
             
 
             
-        }
-        
+        },
+
+
+        "myWork":"My Work",
+        "Project":"Project",
+        "ProjectDesc":"work work work",
+
+        "projects": {
+            "description1": "descreptionsssssd"
+           
+          }
+
 
 
      }

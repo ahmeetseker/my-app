@@ -10,7 +10,7 @@ function LanguageSelector() {
   };
 
   return (
-    <select onChange={changeLanguage} defaultValue={i18n.language}>
+    <select className='pl-4 pr-3 p-2 rounded-md bg-[#aaa6c3] border-r-8 border-transparent'  onChange={changeLanguage} defaultValue={i18n.language}>
       <option value="en">English</option>
       <option value="tr">Türkçe</option>
     </select>
