@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 import { styles } from "../../styles";
 import { navLinks } from "../../constants";
 import { logo, menu, close } from "../../assets";
@@ -30,8 +29,7 @@ const Navbar = ({t}) => {
             <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
             <p className="text-white font-bold cursor-pointer text-[18px]">Ahmet Şeker <span className="sm:block hidden">Front-End Web Developmemt</span> </p>
           
-              </Link>
-              
+              </Link> 
               
               <ul className='list-none flex sm:flex flex-row gap-10'>
                      {navLinks.map((nav) => (
