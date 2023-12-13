@@ -58,11 +58,52 @@
         "ProjectDesc":"wzxczxczx",
 
 "projects": {
-    "description1": "descreptiond1ausdhuasjh"
+    "description1": "descreptiond1ausdhuasjh",
+    "description2": "turkcesss",
+    "description3": "turkcesss333",
+    "name1":"ilkname",
+    "name2":"ikinciname",
+    "name3":"ucuncuname"
+    
    
-  }
+   
+  },
+  "whatOhtersSay":"Geri bildirimler neler diyor?",
+  "testimonialsHead":"Yorumlar",
 
 
+
+  "testimonials": {
+    "testimonial1": "11111",
+    "testimonial2": "22222",
+    "testimonial3": "388233333333338238838",
+
+    "name1":"firstName1111",
+    "name2":"twoname2222",
+    "name3":"thereename3333",
+    "desc1":"aciklama222",
+             "desc2":"aciklama3333",
+             "desc3":"aciklama4444",
+             "company1":"sirket1",
+             "company2":"sirket2",
+             "company3":"sirket3"
+             
+   
+  },
+
+
+  "GetContcat":"İletişime Geçin",
+  "Contcat":"İletişim.",
+  "InputName":"İsim",
+  "inputplaceName":"Ad Soyad",
+  "InputMail":"Email",
+  "inputplaceEmail":"Email Adresiniz",
+  "YourMessage":"Mesajiniz",
+  "inputplaceMessage":"Açıklama",
+  "sending":"Gönderiliyor...",
+  "send":"Gönder",
+  "alertErorrMessage":"Bir şeyler yanlış gitti",
+  "alertWillBack":"Teşekkürler, geri dönüş yapacağım. "
 
 }
 

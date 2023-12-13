@@ -5,6 +5,7 @@ import { fadeIn, textVariant } from '../../utils/motion'
 import { styles } from '../../styles'
 import { testimonials } from '../../constants'
 import { SectionWrapper } from "../../hoc";
+import { useTranslation } from 'react-i18next';
 
 const FeedbacksCard = ({index,testimonial ,name ,designation ,  company , image}) => (
 
@@ -45,6 +46,7 @@ const FeedbacksCard = ({index,testimonial ,name ,designation ,  company , image}
 
 
 const Feedbacks = () => {
+  const { t } = useTranslation();
   return (
       <div className='mt-12 bg-black-100 rounded-[20px]'>
 
@@ -54,11 +56,11 @@ const Feedbacks = () => {
                variants={textVariant()}
               >
                 <p className={styles.sectionSubText}>
-
-                  what ohters say
+                    {t("whatOhtersSay")}
+                  
                 </p>
 
-                <h2 className={styles.sectionHeadText}>Testimonials</h2>
+                <h2 className={styles.sectionHeadText}>{t("testimonialsHead")}</h2>
               </motion.div>
             </div>
 
@@ -71,6 +73,13 @@ const Feedbacks = () => {
                       key={testimonial.name}
                       index={index}
                       {...testimonial}
+                      testimonial={t(testimonial.testimonial)}
+
+                      name={t(testimonial.name)}
+
+                      designation={t(testimonial.designation)}
+                      company={t(testimonial.company)}
+                 
                     />
 
                 

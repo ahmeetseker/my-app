@@ -33,17 +33,17 @@ import {
   export const navLinks = [
   
     {
-      id: "about",
+      id: "About",
       title: "About",
       translationKey: "navbar.about",
     },
     {
-      id: "work",
+      id: "Work",
       title: "Work",
       translationKey: "navbar.work",
     },
     {
-      id: "contact",
+      id: "Contact",
       title: "Contact",
       translationKey: "navbar.contact",
     },
@@ -177,27 +177,24 @@ import {
   const testimonials = [
     
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+      testimonial:"testimonials.testimonial1",
+      name: "testimonials.name1",
+      designation: "testimonials.desc1",
+      company: "testimonials.company1",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+      testimonial:"testimonials.testimonial2",
+      name: "testimonials.name2",
+      designation: "testimonials.desc2",
+      company: "testimonials.company2",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+      testimonial:"testimonials.testimonial3",
+      name: "testimonials.name3",
+      designation: "testimonials.desc3",
+      company: "testimonials.company3",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -207,7 +204,7 @@ import {
     {
 
       
-      name: "Car Rent",
+      name: "projects.name1",
       description: 'projects.description1',
       tags: [
         {
@@ -227,9 +224,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "projects.name2",
       description:
-           ('projects.description2'),
+           'projects.description2',
       tags: [
         {
           name: "react",
@@ -248,9 +245,8 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "projects.name3",
+      description:'projects.description3',
       tags: [
         {
           name: "nextjs",

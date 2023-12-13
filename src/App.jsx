@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Router } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./assets/components";
   import './i18n';
@@ -15,15 +15,16 @@ const App = () => {
           <Navbar  t={t} />
           <Hero t={t} />
         </div>
-        <About  />
+        
+        <About    />
         <Experience t={t}  />
         <Tech  />
         <Works  />
-        <Feedbacks />
+        <Feedbacks  t={t} />
         <div className='relative z-0'>
           <Contact  />
           <StarsCanvas  />
-        </div>
+        </div>  
       </div>
     </BrowserRouter>
   );

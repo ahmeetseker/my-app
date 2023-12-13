@@ -105,8 +105,9 @@ const Works = () => {
         key={`project-${index}`}
         {...project}
         description={t(project.description)}
-
-        index={index}
+        name={t(project.name)}
+      
+   
        
         ></ProjectCard>
       

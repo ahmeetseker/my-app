@@ -60,11 +60,55 @@
         "ProjectDesc":"work work work",
 
         "projects": {
-            "description1": "descreptionsssssd"
+            "description1": "descreptionsssssd",
+            "description2": "22222engis2",
+            "description3": "33332engi24",
+            "name1":"firstName",
+            
+            "name2":"twoname",
+            "name3":"thereename"
            
-          }
+          },
+          "whatOhtersSay":"What Other Say",
+          "testimonialsHead":"Testimonials",
 
 
+          "testimonials": {
+            "testimonial1": "asdasdasd",
+            "testimonial2": "dasdasd",
+            "testimonial3": "388238238838",
+            "name1":"firstName",
+            "name2":"twoname",
+            "name3":"thereename",
+             "desc1":"desca4444",
+             "desc2":"decs3333",
+             "desc3":"desca555",
+             "company1":"dekdae",
+           "company2":"dejmdkamsk",
+           "company3":"comanyyyyt333"
+           
+          },
+
+          "GetContcat":"Get  in touch ",
+          "Contcat":"Contcat.",
+          "InputName":"Your Name",
+          "inputplaceName":"What's your good name?",
+          "InputMail":"Your Mail",
+          "inputplaceEmail":"What's your web address?",
+          "YourMessage":"Your Message",
+          "inputplaceMessage":" What you want to say? ",
+          "sending":"Sending...",
+          "send":"Send",
+
+          "alertErorrMessage":"Something went wrong",
+          "alertWillBack":"I will come back"
+
+
+
+
+      
+          
+          
 
      }
 
