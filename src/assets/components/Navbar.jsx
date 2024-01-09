@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { styles } from "../../styles";
 import { navLinks } from "../../constants";
 import { logo, menu, close } from "../../assets";
-import {LanguageSelector} from "./Language";
-import {LanguageSelectorMobile} from './LanguageSelectorMobile'
+import LanguageSelector from "./Language";
+import LanguageSelectorMobile from './LanguageSelectorMobile'
 
 
 const Navbar = ({t}) => {
