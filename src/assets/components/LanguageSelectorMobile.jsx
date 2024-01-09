@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import TR from '../../assets/tr.svg'
-import EN from '../../assets/EN.svg'
+import EN from '../../assets/en.svg'
 
 
 function LanguageSelector() {

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../../styles";
 import { navLinks } from "../../constants";
 import { logo, menu, close } from "../../assets";
-import {LanguageSelector} from "./Language";
+import {LanguageSelector} from "./Lxanguage";
 import {LanguageSelectorMobile} from './LanguageSelectorMobile'
 
 
