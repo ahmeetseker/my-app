@@ -14,8 +14,26 @@
             "work": "Work",
             "contact": "Contact"
           },
+          
+          "link":{
+            "about": "About",
+            "work": "Work",
+            "contact": "Contact"
+          },
 
           "experiences": {
+
+            "Freelance": {
+              "date": " July 2022 - December 2022",
+              "points": [
+               " Customizing pre-made themes and making them suitable for specific requests, then offering them for sale.",
+               " Developing and selling custom solutions by editing PHP scripts.",
+              "  Designing modern and user-friendly interfaces using HTML, CSS, and JavaScript.",
+              "  Designing and developing custom web projects tailored to customer requests.",
+               " Ensuring the successful completion of projects within budget and time constraints."
+              ]
+            },
+
             "Hajans": {
               "date": "January 2023 - May 2023",
               "points": [
@@ -38,15 +56,8 @@
                 "Utilizing my technological skills, I collaborated within the team to create a user-friendly and interactive frontend.",
                 "While working at Orjinfinity, I actively contributed to the development of various features using React in the project hosted on the 'Hemen Tescille' website."
               ]
-            },
-            "Shopify": {
-              "points": [
-                "ddddddddddddddd React.js and other related technologies.",
-                "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-                "Implementing responsive design and ensuring cross-browser compatibility.",
-                "Participating in code reviews and providing constructive feedback to other developers."
-              ]
             }
+           
 
 
             
@@ -57,16 +68,16 @@
 
         "myWork":"My Work",
         "Project":"Project",
-        "ProjectDesc":"work work work",
+        "ProjectDesc":" Here are some of the projects I have undertaken so far.   ",
 
         "projects": {
-            "description1": "descreptionsssssd",
-            "description2": "22222engis2",
-            "description3": "33332engi24",
-            "name1":"firstName",
+            "description1": "One of the projects I have undertaken for Erte Asma Iskele is currently live. You can access the details of the project at www.erteasmaiskele.com. This work has been developed by me as a freelance project",
+            "description2": "The project I developed in collaboration with my team is Hemen Tescille. This project is written using React Styled Components and is currently live at www.hementescille.com. Additionally, I am currently working on the 'MarkamıTescille' Project, developing it with Next.js, React, and Tailwind CSS. I plan to launch this project soon",
+            "description3": "I am currently working on a project as part of the Orjınfınıty company, developing a Restaurant Application. This application simplifies processes such as order placement, order tracking, and inventory management for materials used in restaurants. The project is developed using TypeScript, React, and Next.js, and it is currently ongoing. Throughout this year, I am continuously enhancing and adding improvements to the project.",
+            "name1":"Erte Asma İskele",
             
-            "name2":"twoname",
-            "name3":"thereename"
+            "name2":"Hemen Tescille",
+            "name3":"Orjinfinity"
            
           },
           "whatOhtersSay":"What Other Say",
@@ -74,18 +85,18 @@
 
 
           "testimonials": {
-            "testimonial1": "asdasdasd",
-            "testimonial2": "dasdasd",
-            "testimonial3": "388238238838",
-            "name1":"firstName",
-            "name2":"twoname",
-            "name3":"thereename",
-             "desc1":"desca4444",
-             "desc2":"decs3333",
-             "desc3":"desca555",
-             "company1":"dekdae",
-           "company2":"dejmdkamsk",
-           "company3":"comanyyyyt333"
+            "testimonial1": "Ability to use modern web technologies along with strong knowledge of HTML, CSS, and JavaScript, effectively utilizing popular front-end libraries and frameworks such as ReactJS",
+            "testimonial2": "Effective project management skills, coupled with the ability to communicate efficiently within a team. Proficient in managing project processes using version control systems like GitHub",
+            "testimonial3": "Strong understanding and experience in mobile-friendly and responsive web design. Ability to create user-friendly interfaces tailored to different screen sizes",
+            "name1":"İhsan",
+            "name2":"Enes",
+            "name3":"Yusuf",
+             "desc1":"CTO",
+             "desc2":"Senior Full-Stack",
+             "desc3":"Senior Frontend",
+             "company1":"Orjinfinity",
+           "company2":"THY",
+           "company3":"Literal"
            
           },
 

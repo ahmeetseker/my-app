@@ -13,8 +13,25 @@
     "work": "İş",
     "contact": "İletişim"
   },
+  "link": {
+    "about": "Hakkında",
+    "work": "İş",
+    "contact": "İletişim"
+  },
+
 
   "experiences": {
+    "Freelance": {
+      "date": "Temmuz 2022 - Aralık 2022",
+      "points": [
+        "Hazır temaları düzenleyerek ve özel taleplere uygun hale getirerek satışa sunma",
+        "PHP scriptleri düzenleyerek özel çözümler geliştirme ve satışa sunma.",
+        "HTML, CSS ve JavaScript kullanarak modern ve kullanıcı dostu arayüzler tasarlama.",
+        "Müşteri taleplerine uygun özel web projeleri tasarlama ve geliştirme.",
+       " Projelerin bütçe ve zaman çerçevesi içinde başarılı bir şekilde tamamlanmasını sağlama"
+      ]
+    },
+
     "Hajans": {
       "date": "Ocak 2023 - Mayıs 2023",
       "points": [
@@ -37,16 +54,8 @@
         "Teknolojik becerilerimle, kullanıcı dostu ve etkileşimli bir frontend oluşturmak için ekip içinde işbirliği yaptım.",
         "Orjinfinity firmasında çalışırken, Hemen Tescille adlı sitede yer alan projede, React kullanarak çeşitli özelliklerin geliştirilmesinde aktif rol aldım."  
       ]
-    },
-    "Shopify": {
-      "points": [
-        "eeeeeeeeeeeeeeeeee React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers."
-      ]
     }
-
+   
 
   
    
@@ -54,16 +63,16 @@
 },
 
 "myWork":"İşlerim",
-"Project":"projelerim",
-        "ProjectDesc":"wzxczxczx",
+"Project":"Projelerim",
+        "ProjectDesc":"İşte bugüne kadar üstlendiğim projelerden bazıları",
 
 "projects": {
-    "description1": "descreptiond1ausdhuasjh",
-    "description2": "turkcesss",
-    "description3": "turkcesss333",
-    "name1":"ilkname",
-    "name2":"ikinciname",
-    "name3":"ucuncuname"
+    "description1": "Erte Asma İskele için gerçekleştirdiğim projelerden biri şu anda yayında. Projenin detaylarına www.erteasmaiskele.com adresinden ulaşabilirsiniz. Bu çalışma, freelance olarak tarafımdan geliştirilmiştir.",
+    "description2": "Hemen Tescille projesi için ekibimle birlikte geliştirdiğim bir projedir. Bu proje, React Styled Components kullanılarak yazılmış olup şu anda www.hementescille.com adresinde yayında. Ayrıca, şu anda üzerinde çalıştığım 'MarkamıTescille' Projesi'ni de Next.js, React ve Tailwind CSS kullanarak geliştiriyorum ve bu projeyi de yakın bir zamanda yayına almayı planlıyorum",
+    "description3": "Şu anda Orjinfinity şirketinde geliştirdiğimiz bir projenin parçası olan Restoran Uygulaması üzerinde çalışıyorum. Bu uygulama, restoranlarda sipariş alma, sipariş takibi yapma ve kullanılan malzemelerin stok takibi gibi işlemleri kolaylaştırmaktadır. Proje, TypeScript, React ve Next.js kullanılarak geliştirilmiş bir uygulamadır ve şu anda devam etmektedir. Bu yıl içinde projeyi sürekli olarak geliştiriyor ve iyileştirmeler ekliyorum.",
+    "name1":"Erte Asma İskele",
+    "name2":"Hemen Tescille",
+    "name3":"Orjinfinity"
     
    
    
@@ -74,20 +83,18 @@
 
 
   "testimonials": {
-    "testimonial1": "11111",
-    "testimonial2": "22222",
-    "testimonial3": "388233333333338238838",
-
-    "name1":"firstName1111",
-    "name2":"twoname2222",
-    "name3":"thereename3333",
-    "desc1":"aciklama222",
-             "desc2":"aciklama3333",
-             "desc3":"aciklama4444",
-             "company1":"sirket1",
-             "company2":"sirket2",
-             "company3":"sirket3"
-             
+    "testimonial1": "Güçlü HTML, CSS ve JavaScript bilgisi ile birlikte modern web teknolojilerini kullanabilme yeteneği ReactJS gibi popüler front-end kütüphanelerini ve framework'leri etkili bir şekilde kullanabilme.",
+    "testimonial2": "Proje yönetimi konusundaki becerileriyle birlikte, ekip içinde etkili bir şekilde iletişim kurma yeteneği.GitHub gibi versiyon kontrol sistemlerini kullanarak proje süreçlerini yönetme kabiliyeti.",
+    "testimonial3": "Mobil uyumlu ve responsive web tasarımı konusundaki güçlü anlayışı ve deneyimi.Farklı ekran boyutlarına uygun kullanıcı dostu arayüzler oluşturma becerisi.",
+    "name1":"İhsan",
+    "name2":"Enes",
+    "name3":"Yusuf",
+     "desc1":"CTO",
+     "desc2":"Senior Full-Stack",
+     "desc3":"Senior Frontend",
+     "company1":"Orjinfinity",
+   "company2":"THY",
+   "company3":"Literal"
    
   },
 

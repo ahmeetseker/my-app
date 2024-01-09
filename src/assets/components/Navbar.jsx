@@ -4,6 +4,7 @@ import { styles } from "../../styles";
 import { navLinks } from "../../constants";
 import { logo, menu, close } from "../../assets";
 import LanguageSelector from "./language";
+import LanguageSelectorMobile from './LanguageSelectorMobile'
 
 
 const Navbar = ({t}) => {
@@ -26,12 +27,12 @@ const Navbar = ({t}) => {
             } }
             >
 
-            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-            <p className="text-white font-bold cursor-pointer text-[18px]">Ahmet Şeker <span className="sm:block hidden">Front-End Web Developmemt</span> </p>
+            <img src={logo} alt="logo" className="w-32 h-20 object-cover" />
+            <p className="text-white font-bold cursor-pointer text-[18px]">Ahmet Şeker <span className="sm:hidden md:block"> Jr.Front end Developer</span> </p>
           
               </Link> 
               
-              <ul className='list-none flex sm:flex flex-row gap-10'>
+              <ul className='list-none  sm:hidden md:flex gap-10'>
                      {navLinks.map((nav) => (
                     <li
                       key={nav.id}
@@ -46,7 +47,7 @@ const Navbar = ({t}) => {
                </ul>
                     
        
-              <div className='sm:hidden flex-1 justify-end items-center'>
+              <div className='sm:flex md:hidden flex-1   justify-end items-center'>
                       <img src={toggle ? close : menu}
                         alt={menu}
                         className="w-[28px] h-[28px] object-contain cursor-pointer"
@@ -70,9 +71,13 @@ const Navbar = ({t}) => {
                       }}
                     >
                       
-                      <a href={`#${link.id}`}>{link.title}</a>
+                      <a href={`#${link.id}`}>{t(link.translationKey)}</a>
                     </li>
                   ))}
+
+      <LanguageSelectorMobile/>
+
+
                </ul>
                     
           
@@ -80,7 +85,7 @@ const Navbar = ({t}) => {
                 
                  </div>
 
-                 <div>
+                 <div className=" ml-4 sm:hidden md:flex">
                     <LanguageSelector/>
                  </div> 
                

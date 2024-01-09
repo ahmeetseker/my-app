@@ -22,7 +22,7 @@ const ProjectCard =({index,name,description,tags,image,source_code_link}) => {
           speed:450
          }}
 
-         className='bg-tertiary  p-5 rounded-2xl  sm:w-[360px] w-full'
+         className='bg-tertiary  p-5 rounded-2xl  sm:w-[320px] w-full'
 
         >
           <div className='relative w-full h-[230px] '>
@@ -97,7 +97,7 @@ const Works = () => {
 
       </div>
 
-    <div className='mt-20 flex flex-wrap gap-7 '>
+    <div className='mt-20 flex flex-wrap gap-7  sm:justify-center md:justify-start'>
 
       {projects.map((project , index) =>
 
@@ -120,4 +120,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works ,'');
+export default SectionWrapper(Works ,'work');

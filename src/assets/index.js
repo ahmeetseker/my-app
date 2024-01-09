@@ -22,13 +22,14 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+
 import hajans from "./company/hajans.png"
 import Orjinfinity from "./company/Orjinfinity.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import kasapos from "./kasapos.png";
+import hementescille from "./hementescille.png";
+
+import erteasmaiskele  from "./erteasmaiskele.png"
 import { Svg } from "@react-three/drei";
 
 export {
@@ -54,10 +55,10 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
+
   hajans,
   Orjinfinity,
-  carrent,
-  jobit,
-  tripguide,
+  hementescille,
+  erteasmaiskele,
+  kasapos,
 };

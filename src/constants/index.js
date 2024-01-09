@@ -12,7 +12,6 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
@@ -22,28 +21,30 @@ import {
     meta,
     hajans,
     Orjinfinity,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+
+    erteasmaiskele,
+    hementescille,
+    kasapos,
     threejs,
+    logo,
+    
     
   } from "../assets";
   
   export const navLinks = [
   
     {
-      id: "About",
+      id: "about",
       title: "About",
       translationKey: "navbar.about",
     },
     {
-      id: "Work",
+      id: "work",
       title: "Work",
       translationKey: "navbar.work",
     },
     {
-      id: "Contact",
+      id: "contact",
       title: "Contact",
       translationKey: "navbar.contact",
     },
@@ -57,11 +58,11 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Junior Frontend Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "3d Max",
       icon: backend,
     },
     {
@@ -91,10 +92,7 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -127,6 +125,22 @@ import {
   
   const experiences = [
     {
+      title: "Freelance Web Developer",
+      company_name: "Freelance",
+      icon: logo,
+      iconBg: "#383E56",
+      date: "",
+      points: [
+        "Hazır temaları düzenleyerek ve özel taleplere uygun hale getirerek satışa sunma",
+        "PHP scriptleri düzenleyerek özel çözümler geliştirme ve satışa sunma.",
+        "HTML, CSS ve JavaScript kullanarak modern ve kullanıcı dostu arayüzler tasarlama.",
+        "Müşteri taleplerine uygun özel web projeleri tasarlama ve geliştirme.",
+       " Projelerin bütçe ve zaman çerçevesi içinde başarılı bir şekilde tamamlanmasını sağlama"
+      ],
+    },
+
+    
+    {
       title: "Frontend Developer",
       company_name: "Hajans",
       icon: hajans,
@@ -158,19 +172,7 @@ import {
       
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
    
   ];
   
@@ -181,21 +183,21 @@ import {
       name: "testimonials.name1",
       designation: "testimonials.desc1",
       company: "testimonials.company1",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: "https://randomuser.me/api/portraits/men/18.jpg",
     },
     {
       testimonial:"testimonials.testimonial2",
       name: "testimonials.name2",
       designation: "testimonials.desc2",
       company: "testimonials.company2",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: "https://randomuser.me/api/portraits/men/20.jpg",
     },
     {
       testimonial:"testimonials.testimonial3",
       name: "testimonials.name3",
       designation: "testimonials.desc3",
       company: "testimonials.company3",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: "https://randomuser.me/api/portraits/men/28.jpg",
     },
   ];
   
@@ -208,19 +210,19 @@ import {
       description: 'projects.description1',
       tags: [
         {
-          name: "react",
+          name: "sass",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgres",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "php-script",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: erteasmaiskele,
       source_code_link: "https://github.com/",
     },
     {
@@ -233,15 +235,15 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "next",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "nodejs",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: hementescille,
       source_code_link: "https://github.com/",
     },
     {
@@ -253,15 +255,15 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "react",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: kasapos,
       source_code_link: "https://github.com/",
     },
   ];
